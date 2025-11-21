@@ -42,9 +42,9 @@ public class MainFXController {
 
     @FXML
     private void initialize() {
-        datePickerHabitsListView.setOnMouseClicked(e -> {
-            System.out.println("Mouse clicked ON THE LISTVIEW ITSELF");
-        });
+        datePickerHabitsListView.setOnMouseClicked(e -> 
+            System.out.println("Mouse clicked ON THE LISTVIEW ITSELF")
+        );
         loadHabits();
         loadDatePickerHabitsListView();
         habitListView.getSelectionModel().selectedItemProperty().addListener((obs, oldVal, newVal) -> {

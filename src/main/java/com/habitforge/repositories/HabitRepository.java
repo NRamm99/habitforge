@@ -57,7 +57,7 @@ public class HabitRepository {
     }
 
     public static List<Habit> getHabits() throws SQLException {
-        String sql = "SELECT * FROM habits";
+        String sql = "SELECT name, description, xpReward, streak FROM habits";
         try (Connection conn = DatabaseConfig.getConnection();
                 PreparedStatement stmt = conn.prepareStatement(sql)) {
             ResultSet rs = stmt.executeQuery();
