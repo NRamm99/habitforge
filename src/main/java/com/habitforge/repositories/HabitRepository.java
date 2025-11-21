@@ -71,4 +71,5 @@ public class HabitRepository {
             throw new SQLException("Failed to get habits: " + e);
         }
     }
+
 }

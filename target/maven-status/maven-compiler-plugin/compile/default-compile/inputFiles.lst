@@ -5,4 +5,5 @@ E:\Coding\habitforge\src\main\java\com\habitforge\exceptions\DbPropertiesNotFoun
 E:\Coding\habitforge\src\main\java\com\habitforge\Main.java
 E:\Coding\habitforge\src\main\java\com\habitforge\models\Habit.java
 E:\Coding\habitforge\src\main\java\com\habitforge\models\User.java
+E:\Coding\habitforge\src\main\java\com\habitforge\repositories\HabitCompletionDatesRepository.java
 E:\Coding\habitforge\src\main\java\com\habitforge\repositories\HabitRepository.java
